@@ -1,0 +1,15 @@
+# Large Docker WSL Virtual Disk files (GitHub 100MB limit)
+DockerData/
+*.vhdx
+
+# Sensitive credentials & encryption key
+config
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Log files
+*.log
+
+# Node dependencies
+node_modules/
