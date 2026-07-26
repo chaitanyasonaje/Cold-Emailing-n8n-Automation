@@ -76,13 +76,13 @@ flowchart TD
 Since Node.js and n8n are installed natively on your system, you can double-click **[`start-n8n.bat`](file:///d:/Automation/start-n8n.bat)** or run in Command Prompt:
 
 ```cmd
-set N8N_USER_FOLDER=d:\Automation
+set N8N_USER_FOLDER=d:\Automation\DockerData\n8n Data
 n8n start
 ```
 
 Or in PowerShell:
 ```powershell
-$env:N8N_USER_FOLDER="d:\Automation"
+$env:N8N_USER_FOLDER="d:\Automation\DockerData\n8n Data"
 n8n start
 ```
 
