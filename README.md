@@ -73,16 +73,9 @@ flowchart TD
 ## 🛠️ How to Run & Manage
 
 ### Option 1: Native (Without Docker using Node.js) — Recommended for Quick Runs
-Since Node.js and n8n are installed natively on your system, you can double-click **[`start-n8n.bat`](file:///d:/Automation/start-n8n.bat)** or run in Command Prompt:
+Since Node.js and n8n are installed natively on your system, simply double-click **[`start-n8n.bat`](file:///d:/Automation/start-n8n.bat)** or run in terminal:
 
-```cmd
-set N8N_USER_FOLDER=d:\Automation\DockerData\n8n Data
-n8n start
-```
-
-Or in PowerShell:
-```powershell
-$env:N8N_USER_FOLDER="d:\Automation\DockerData\n8n Data"
+```bash
 n8n start
 ```
 
